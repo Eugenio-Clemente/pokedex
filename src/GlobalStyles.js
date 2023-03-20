@@ -7,3 +7,4 @@ export const GlobalStyles = createGlobalStyle`
   font-family: 'Caveat Brush', cursive;
 }
 `
+  

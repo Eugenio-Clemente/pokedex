@@ -3,7 +3,7 @@ import { PokemonProvider } from "./Contexts/PokemonProvider";
 import { ThemeProvider } from "./Contexts/Theme-provider";
 import { GlobalStyles } from "./GlobalStyles";
 
-export function App() {
+export function App() { 
   return (
     <ThemeProvider>
       <PokemonProvider>
