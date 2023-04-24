@@ -1,6 +1,6 @@
 # Projeto Pokedex React js 🚀
 
- [<img src="/src/pokedex.gif" alt="Projeto pokedex">]()
+ [<img src="/src/assets/pokedex.gif" alt="Projeto pokedex">]()
 
 ### Projeto realizado no Curso DevQuest. Proposto dos professores Roberto Dias e Ricardo Dias [(Dev em dobro)](https://www.instagram.com/devemdobro/) professores do curso DevQuest.
 
