@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom"
-import { Navigation } from "./Components/Navigation/Navigation"
-import { PokemonPage, HomePage} from "./Pages"
+import { Navigation } from "../Components/Navigation/Navigation"
+import { PokemonPage, HomePage} from "../Pages"
 
 const AppRouter = () => {
     return <Routes>

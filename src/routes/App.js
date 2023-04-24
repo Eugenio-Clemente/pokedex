@@ -1,6 +1,6 @@
 import { AppRouter } from "./AppRouter";
-import { PokemonProvider } from "./Contexts/PokemonProvider";
-import { ThemeProvider } from "./Contexts/Theme-provider";
+import { PokemonProvider } from "../services/PokemonProvider";
+import { ThemeProvider } from "../Contexts/Theme-provider";
 import { GlobalStyles } from "./GlobalStyles";
 
 export function App() { 

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { PokemonContext } from "./PokemonContext";
+import { PokemonContext } from "../Contexts/PokemonContext";
 
 const PokemonProvider = ({ children }) => {
   const [allPokemons, setAllPokemons] = useState([]);

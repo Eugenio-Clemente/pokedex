@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# Projeto Pokedex React js 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ [<img src="/src/pokedex.gif" alt="Projeto pokedex">]()
 
-## Available Scripts
+### Projeto realizado no Curso DevQuest. Proposto dos professores Roberto Dias e Ricardo Dias [(Dev em dobro)](https://www.instagram.com/devemdobro/) professores do curso DevQuest.
 
-In the project directory, you can run:
+## Desafio 1 🔥
 
-### `npm start`
+Criar uma Home (página inicial) de listagem de alguns pokemons, utilizando a api https://pokeapi.co/ Criar uma página interna de detalhe do pokemon. A home deve apresentar uma listagem com 10 pokemons
+iniciais. A home deve ter um botão "Carregar mais" abaixo dessa lista, que quando clicado deve buscar mais 10 pokemons e adicionar a listagem atual.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Desafio 2 🔥
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Essa listagem deve mostrar a imagem e nome de cada pokemon. Na listagem cada pokemon deve ser clicável e ao clicar o usuário deve poder acessar uma página interna desse pokemon com informações detalhadas, nessa página de detalhes devem aparecer as seguintes informações
 
-### `npm test`
+•  Imagem do pokemon
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+•  Nome
 
-### `npm run build`
+•  Lista de movimentos do pokemon 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+•  Lista de habilidades do pokemon 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+•  a lista de habilidades deve apresentar o nome e o texto
+descritivo da habilidade
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+•  Tipo do pokemon 
 
-### `npm run eject`
+## Desafio 3 🔥
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Essa home deve ter um botão para que o usuário possa alternar de cor entre tema claro e tema escuro (light/dark)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📌 Ferramentas
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- React Router: https://reactrouter.com/en/main
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- styled-components: https://styled-components.com/docs 
 
-## Learn More
+- APi Pokémon - https://pokeapi.co/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🛠 Guia de instalação
+1- Faça o clone do projeto
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+``
+git clone https://github.com/Eugenio-Clemente/pokedex
+``
 
-### Code Splitting
+2- Acesse o repositório
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+``
+cd pokedex
+``
 
-### Analyzing the Bundle Size
+3- Instale o pacote do projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+``
+npm install
+``
 
-### Making a Progressive Web App
+4-Instale o styled-componentes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+``
+npm install --save styled-components
+``
 
-### Advanced Configuration
+5-Instale o react-router-dom
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+``
+npm i react-router-dom
+``
 
-### Deployment
+6- Inicialize o app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+``
+npm start
+``
 
-### `npm run build` fails to minify
+## 📌 Tecnologias 
+- React JS
+- Javascript
+- CSS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📌 Desenvolvido 
+
+-  Single Page Application (SPA);
+- React.js para o desenvolvimento da
+aplicação;
+- Context API para criação do Theme Toggler
+(Alternador entre tema claro e escuro);
+- styled-components para estilização dos
+componentes;
+-  react-router-dom para a navegação entre as
+páginas.

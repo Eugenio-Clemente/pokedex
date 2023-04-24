@@ -11,7 +11,7 @@ export const Navigation = () => {
     <div style={{ color: theme.color, backgroundColor: theme.background }}>
       <Div>
         <Img
-          src="https://archives.bulbagarden.net/media/upload/4/4b/Pok%C3%A9dex_logo.png"
+          src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png"
           alt="Logo Pokedex"
         />
         <ThemeTogglerButton />
